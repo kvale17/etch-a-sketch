@@ -8,9 +8,13 @@ html {
   box-sizing: inherit;
 }
 
-#sketch-pad{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+#sketch-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cell {
+  border-style: solid;
 }
