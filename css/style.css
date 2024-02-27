@@ -7,3 +7,9 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+#sketch-pad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
