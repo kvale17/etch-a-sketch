@@ -15,6 +15,7 @@ html {
   flex-wrap: wrap;
   width: 600px;
   height: 600px; 
+  margin: 30px auto;
 }
 
 .cell {
@@ -22,3 +23,5 @@ html {
   width: calc(100% / 16);
   height: calc(100% / 16);
 }
+
+
