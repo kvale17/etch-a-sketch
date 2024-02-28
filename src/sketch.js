@@ -45,3 +45,7 @@ function promptGrid() {
 
     addGrid(parseInt(squareUnits));
 }
+
+function clearGrid(){
+    container.innerHTML = '';
+}
