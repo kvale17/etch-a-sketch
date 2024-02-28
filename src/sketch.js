@@ -43,6 +43,8 @@ function promptGrid() {
         return promptGrid();
     }
 
+    clearGrid();
+
     addGrid(parseInt(squareUnits));
 }
 
