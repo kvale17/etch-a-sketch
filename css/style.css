@@ -24,7 +24,7 @@ html {
 }
 
 .cell {
-  border-style: solid;
+  border: 1px solid;
 }
 
 .button {
