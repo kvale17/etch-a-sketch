@@ -31,4 +31,11 @@ html {
     background-color: bisque;
 }
 
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
 
