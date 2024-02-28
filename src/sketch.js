@@ -25,7 +25,7 @@ function addGrid(squareUnits) {
 }
 
 function promptGrid() {
-    const squareUnits = prompt("Enter the new grid size in units squared", "0");
+    const squareUnits = prompt("Enter the new grid size in units squared (1-100)", "0");
 
     if (squareUnits <= 0) {
         alert("Please enter a positive number greater than 0");
@@ -48,6 +48,6 @@ function promptGrid() {
     addGrid(parseInt(squareUnits));
 }
 
-function clearGrid(){
+function clearGrid() {
     container.innerHTML = '';
 }
